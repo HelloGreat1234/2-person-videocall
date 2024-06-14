@@ -13,7 +13,7 @@ let peerconnection;
 let didIoffer = false
 
 
-const socket = io.connect('https://localhost:3000', {
+const socket = io.connect('https://two-person-videocall.onrender.com', {
     auth: {
         userName: userName,
         password: password
