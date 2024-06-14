@@ -19,7 +19,7 @@ const io = socektio(expressServer, {
     cors: {
         origin: [
             "https://localhost",
-            // 'https://LOCAL-DEV-IP-HERE' //if using a phone or another computer
+            'https://two-person-videocall.onrender.com' //if using a phone or another computer
         ],
         methods: ["GET", "POST"]
     }
